@@ -1,12 +1,12 @@
-## AgentricAI Studios License Agreement
+## AgentricAI License Agreement
 
 **Copyright (c) 2024 Brandon A Myers ('AgentricAI')**
 **Email:** agentricaiuiux@gmail.com
 
-This software, AgentricAI Studios (hereinafter "the Software"), is provided under the following terms and conditions:
+This software, AgentricAI (hereinafter "the Software"), is provided under the following terms and conditions:
 
 **Preamble:**
-The goal of AgentricAI Studios is to foster innovation and experimentation in the field of AI-driven applications and agentic workflows. This license is intended to protect the intellectual property of the original author while allowing for community engagement and non-commercial exploration.
+The goal of AgentricAI is to foster innovation and experimentation in the field of AI-driven applications and agentic workflows. This license is intended to protect the intellectual property of the original author while allowing for community engagement and non-commercial exploration.
 
 **Grant of Rights:**
 Subject to the terms of this license, the copyright holder grants you a personal, non-exclusive, non-transferable, royalty-free license to:
@@ -16,7 +16,7 @@ Subject to the terms of this license, the copyright holder grants you a personal
 **Restrictions:**
 You may NOT:
 1.  Use the Software or any derivative thereof for any commercial purpose, including but not limited to selling the Software, offering it as part of a paid service, or using it to generate revenue through tokenization, advertising, or any other means, without the explicit prior written permission of the copyright holder.
-2.  Modify, adapt, or create derivative works that alter, obscure, or remove the core functionality, branding ("AgentricAI Studios powered by Google Technologies", "AgentricAI"), or copyright notices of the Software, for public distribution or commercial use, without explicit prior written permission.
+2.  Modify, adapt, or create derivative works that alter, obscure, or remove the core functionality, branding  ("AgentricAI"), or copyright notices of the Software, for public distribution or commercial use, without explicit prior written permission.
 3.  Distribute the Software or derivative works under any other license terms that are inconsistent with the terms set forth herein.
 4.  Use the Software for any purpose that is unlawful or prohibited by this license.
 
@@ -42,4 +42,5 @@ The Apache License 2.0 is a permissive free software license. It allows users to
 - Freely use, modify, and distribute the software in source or binary form.
 - Sublicense the software.
 - Use the software for commercial purposes.
+
 It requires preservation of copyright and license notices and provides an express grant of patent rights from contributors to users. If you intend to strictly limit commercial use and modifications by third parties for commercial purposes, the Apache 2.0 license by itself would not achieve this. You would need a different license or a custom agreement.
