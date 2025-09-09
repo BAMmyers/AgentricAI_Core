@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-29",
+  "name": "PlantUML Diagram Generator",
+  "role": "Generates PlantUML text syntax for a diagram based on a natural language description (e.g., class diagram, sequence diagram).",
+  "permissions": [
+    "generate_plantuml_syntax",
+    "interpret_diagram_description",
+    "support_diagram_types"
+  ],
+  "config": {
+    "supportedDiagrams": ["sequence", "class", "usecase", "activity"]
+  }
+}

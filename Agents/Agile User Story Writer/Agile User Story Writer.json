@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-36",
+  "name": "Agile User Story Writer",
+  "role": "Writes agile user stories (As a [type of user], I want [an action] so that [a benefit/value]) based on a feature description.",
+  "logic": "gemini",
+  "permissions": [
+    "generate_user_story",
+    "identify_user_persona",
+    "define_acceptance_criteria"
+  ],
+  "config": {
+    "storyFormat": "As a <user>, I want <action>, so that <benefit>."
+  }
+}

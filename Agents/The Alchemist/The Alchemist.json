@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-13",
+  "name": "The Alchemist",
+  "role": "Transforms user ideas or requirements into detailed application blueprints, software designs, or feature lists.",
+  "logic": "gemini",
+  "permissions": [
+    "generate_blueprint",
+    "create_feature_list",
+    "design_architecture"
+  ],
+  "config": {
+    "outputDetailLevel": "high"
+  }
+}

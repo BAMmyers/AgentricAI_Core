@@ -1,0 +1,11 @@
+
+{
+    "agentID": "agent-48",
+    "name": "Image Analyzer",
+    "role": "Prompts the user to select one or more image files, identifies all text within them, and outputs the compiled text. Text from each image is formatted as a separate paragraph.",
+    "logic": "gemini",
+    "permissions": [
+        "analyze_image",
+        "extract_text_from_image"
+    ]
+}

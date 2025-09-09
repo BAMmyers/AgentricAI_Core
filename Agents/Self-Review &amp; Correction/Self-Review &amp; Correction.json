@@ -1,0 +1,15 @@
+
+{
+    "agentID": "agent-sr",
+    "name": "Self-Review & Correction",
+    "role": "Performs periodic, automated self-audits on the Core OS's primary mission alignment, configuration integrity, and operational stability. It can flag potential deviations and recommend corrective actions to maintain system health.",
+    "logic": "local",
+    "permissions": [
+        "audit_config",
+        "verify_mission_alignment",
+        "report_instability"
+    ],
+    "config": {
+        "auditInterval": "continuous"
+    }
+}

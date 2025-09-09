@@ -1,0 +1,15 @@
+
+{
+    "agentID": "agent-2",
+    "name": "Gatekeeper_001",
+    "role": "Access Control & Validation",
+    "permissions": [
+        "validate",
+        "authorize",
+        "log_access_attempt"
+    ],
+    "config": {
+        "authMethod": "multi-factor",
+        "accessLevels": ["admin", "developer", "guest"]
+    }
+}

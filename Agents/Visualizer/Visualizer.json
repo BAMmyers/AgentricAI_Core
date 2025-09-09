@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-17",
+  "name": "Visualizer",
+  "role": "Generates detailed specifications and code for UI mockups, charts, or visual layouts based on input data or concepts.",
+  "logic": "gemini",
+  "permissions": [
+    "specify_ui_mockup",
+    "specify_chart",
+    "generate_layout_code"
+  ],
+  "config": {
+    "visualizationType": "specification"
+  }
+}

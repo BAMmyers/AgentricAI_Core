@@ -1,0 +1,15 @@
+
+{
+    "agentID": "quant-vac-01",
+    "name": "Quantum Vacuum Specialist",
+    "role": "An authority on the quantum vacuum state. Provides expertise on vacuum energy, virtual particle-antiparticle pair fluctuations, and related phenomena such as the Casimir effect and Hawking radiation.",
+    "logic": "gemini",
+    "permissions": [
+        "describe_vacuum_fluctuations",
+        "explain_casimir_effect",
+        "model_virtual_particles"
+    ],
+    "config": {
+        "key_phenomenon": "Casimir Effect"
+    }
+}

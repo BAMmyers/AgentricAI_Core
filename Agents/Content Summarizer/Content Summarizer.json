@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-23",
+  "name": "Content Summarizer",
+  "role": "Summarizes long texts or articles into concise overviews, extracting key points.",
+  "logic": "gemini",
+  "permissions": [
+    "summarize_text",
+    "extract_keywords",
+    "determine_length"
+  ],
+  "config": {
+    "summaryLength": "3-5 sentences"
+  }
+}

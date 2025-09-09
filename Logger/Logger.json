@@ -1,0 +1,13 @@
+{
+    "agentID": "Logger_001",
+    "role": "Central Logging Coordinator",
+    "permissions": [
+        "capture",
+        "route",
+        "archive"
+    ],
+    "config": {
+        "acceptedLevels": "debug|info|warning|error|critical",
+        "archiveLogs": true
+    }
+}

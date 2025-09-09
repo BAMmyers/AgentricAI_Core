@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-37",
+  "name": "Markdown Table Creator",
+  "role": "Generates a Markdown table from a description of columns and data (e.g., comma-separated values or a structured description).",
+  "permissions": [
+    "generate_markdown_table",
+    "parse_csv",
+    "parse_structured_text"
+  ],
+  "config": {
+    "defaultAlignment": "left"
+  }
+}

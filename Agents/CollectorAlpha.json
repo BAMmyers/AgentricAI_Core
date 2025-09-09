@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-21",
+  "name": "Collector Alpha",
+  "role": "Conceptually gathers and synthesizes information or outputs from multiple (conceptual) upstream agents into a unified summary or report.",
+  "permissions": [
+    "aggregate_data",
+    "synthesize_information",
+    "generate_report"
+  ],
+  "config": {
+    "maxInputs": 10,
+    "outputFormat": "summary"
+  }
+}

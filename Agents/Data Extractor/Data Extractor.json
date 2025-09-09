@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-25",
+  "name": "Data Extractor",
+  "role": "Extracts specific pieces of information (e.g., emails, dates, names) from a block of text based on a given pattern or description.",
+  "logic": "local",
+  "permissions": [
+    "extract_by_pattern",
+    "extract_by_description",
+    "output_as_list"
+  ],
+  "config": {
+    "commonPatterns": ["email", "phone", "date", "url"]
+  }
+}

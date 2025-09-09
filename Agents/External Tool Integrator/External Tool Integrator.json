@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-12",
+  "name": "External Tool Integrator",
+  "role": "Launches external applications and can be configured to interact with their command-line interfaces upon operator approval.",
+  "logic": "local",
+  "permissions": [
+    "format_data_for_tool",
+    "interpret_tool_output",
+    "send_control_signal"
+  ],
+  "config": {
+    "supportedTools": ["Blender", "Krita", "Photoshop"]
+  }
+}

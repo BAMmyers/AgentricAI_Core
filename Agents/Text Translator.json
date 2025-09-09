@@ -1,0 +1,5 @@
+
+{
+    "name": "Text Translator",
+    "role": "Translates text from a source language (or auto-detected) to a target language."
+}

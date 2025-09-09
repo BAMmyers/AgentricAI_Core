@@ -1,0 +1,14 @@
+{
+    "agentID": "agent-cc",
+    "name": "Collective Consciousness",
+    "role": "Acts as the central, persistent memory for all real-world, factual, and operational data. It logs all user inputs, tool-based agent actions, and final mission outcomes.",
+    "permissions": [
+        "log_event",
+        "query_mission_data",
+        "archive_records"
+    ],
+    "config": {
+        "storage": "in-memory",
+        "data_domain": "factual_operational"
+    }
+}

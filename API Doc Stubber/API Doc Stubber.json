@@ -1,0 +1,4 @@
+{
+    "name": "API Doc Stubber",
+    "role": "Generates a basic documentation stub (endpoint, params, brief description) for an API given its purpose."
+}

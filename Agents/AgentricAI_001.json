@@ -1,0 +1,16 @@
+
+{
+    "agentID": "agent-1",
+    "name": "AgentricAI_001",
+    "role": "Core Coordinator & Dispatch Manager",
+    "permissions": [
+        "route",
+        "monitor",
+        "broadcast",
+        "delegate"
+    ],
+    "config": {
+        "fallbackAgent": "Security_Sentinel_001",
+        "dispatchMode": "priority"
+    }
+}

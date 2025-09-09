@@ -1,0 +1,16 @@
+
+{
+  "agentID": "agent-30",
+  "name": "JSON Data Generator",
+  "role": "Creates sample JSON data based on a description of the desired structure or fields.",
+  "logic": "gemini",
+  "permissions": [
+    "generate_json_from_schema",
+    "generate_json_from_description",
+    "create_mock_data"
+  ],
+  "config": {
+    "maxDepth": 5,
+    "maxArrayItems": 10
+  }
+}

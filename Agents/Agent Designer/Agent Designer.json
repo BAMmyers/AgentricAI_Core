@@ -1,0 +1,12 @@
+
+{
+    "agentID": "agent-42",
+    "name": "Agent Designer",
+    "role": "Analyzes task requirements to design a new, specialized agent. It outputs a JSON object with \"name\" and \"role\" for the new agent.",
+    "logic": "gemini",
+    "permissions": [
+        "design_agent_spec",
+        "output_json",
+        "analyze_requirements"
+    ]
+}

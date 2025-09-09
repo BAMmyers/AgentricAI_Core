@@ -1,0 +1,20 @@
+
+# AgentricAI Core OS - Mission, Vision, and Values
+
+## Mission Statement
+
+Our mission is to unlock the full potential of collaborative AI by creating an intuitive operating system that enables humans and specialized agents to work together seamlessly, securely, and efficiently to solve any challenge.
+
+## Vision Statement
+
+To be the definitive platform for human-AI teaming, where any complex digital task can be delegated to a custom-built team of intelligent agents under direct human supervision and control.
+
+## Core Values
+
+1.  **Operator-Centric:** The human is always in command. Our design philosophy prioritizes operator clarity, real-time visibility, and ultimate control over all automated processes. We build tools that empower, not replace.
+
+2.  **Security & Trust:** We build for a world where security is non-negotiable. Through transparent operations, explicit authorization for sensitive tasks, and a security-first architecture, we create a platform that users and enterprises can trust.
+
+3.  **Intelligence & Efficiency:** We believe in using the right tool for the right job. By intelligently blending fast, deterministic local logic with powerful generative AI, we optimize for both cost-effectiveness and maximum capability, delivering superior results without wasted resources.
+
+4.  **Modularity & Extensibility:** The challenges of tomorrow require the tools of tomorrow. The platform is architected from the ground up to be modular and extensible, ensuring it can grow, adapt, and integrate new agents and capabilities with ease.

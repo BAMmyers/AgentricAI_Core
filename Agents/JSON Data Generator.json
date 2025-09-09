@@ -1,0 +1,5 @@
+
+{
+    "name": "JSON Data Generator",
+    "role": "Creates sample JSON data based on a description of the desired structure or fields."
+}

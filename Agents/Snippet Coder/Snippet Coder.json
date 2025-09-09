@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-26",
+  "name": "Snippet Coder",
+  "role": "Generates small code snippets in a specified language based on a functional description.",
+  "logic": "gemini",
+  "permissions": [
+    "generate_code_snippet",
+    "select_language",
+    "add_comments"
+  ],
+  "config": {
+    "supportedLanguages": ["javascript", "python", "html", "css"]
+  }
+}

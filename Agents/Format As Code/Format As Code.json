@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-22",
+  "name": "Format As Code",
+  "role": "Takes input text and formats it as a code block in a specified language, with auto-detection. Useful for displaying structured data or snippets.",
+  "logic": "local",
+  "permissions": [
+    "format_code_block",
+    "detect_language",
+    "apply_syntax_highlighting"
+  ],
+  "config": {
+    "defaultLanguage": "plaintext"
+  }
+}

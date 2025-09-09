@@ -1,0 +1,15 @@
+
+{
+    "agentID": "tool-8",
+    "name": "Forced Stance Reporter",
+    "role": "Actively reports documented threats, malicious code, and attack origins to external cybersecurity databases (e.g., VirusTotal, abuse.ch) to contribute to global threat intelligence and deter attackers.",
+    "logic": "local",
+    "permissions": [
+        "report_threat_ioc",
+        "submit_to_database",
+        "format_report"
+    ],
+    "config": {
+        "targetDatabases": ["VirusTotal", "abuse.ch", "PhishTank"]
+    }
+}

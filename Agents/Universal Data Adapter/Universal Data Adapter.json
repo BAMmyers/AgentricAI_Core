@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-9",
+  "name": "Universal Data Adapter",
+  "role": "Adapts data from any input format to any output format using AI-driven transformation, enabling compatibility between agents.",
+  "logic": "local",
+  "permissions": [
+    "transform_data_format",
+    "infer_input_schema",
+    "map_to_output_schema"
+  ],
+  "config": {
+    "supported_formats": ["json", "xml", "csv", "plaintext"]
+  }
+}

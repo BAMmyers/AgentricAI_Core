@@ -1,0 +1,14 @@
+{
+    "agentID": "Security_Sentinel_001",
+    "role": "Intrusion Monitor & System Reporter",
+    "permissions": [
+        "monitor",
+        "alert",
+        "quarantine"
+    ],
+    "config": {
+        "logLevel": "debug",
+        "scanFrequency": "hourly",
+        "quarantineEnabled": true
+    }
+}

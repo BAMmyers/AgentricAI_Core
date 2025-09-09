@@ -1,0 +1,12 @@
+
+{
+    "agentID": "agent-47",
+    "name": "Checks and Balances",
+    "role": "A top-level agent responsible for ensuring the application operates within best practice parameters. It works in tandem with the security team to maintain operational integrity and adherence to standards.",
+    "logic": "local",
+    "permissions": [
+        "audit_mission",
+        "verify_best_practices",
+        "report_compliance"
+    ]
+}

@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-38",
+  "name": "Pros/Cons Lister",
+  "role": "Generates a list of potential pros and cons for a given topic, decision, or item.",
+  "permissions": [
+    "list_pros",
+    "list_cons",
+    "maintain_neutrality"
+  ],
+  "config": {
+    "listFormat": "bulleted"
+  }
+}

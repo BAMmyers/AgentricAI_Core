@@ -1,0 +1,15 @@
+
+{
+    "agentID": "tool-4",
+    "name": "Data Sanitization Unit",
+    "role": "Applies configurable rules to identify and remove, mask, or encrypt sensitive information (PII) from data payloads.",
+    "logic": "local",
+    "permissions": [
+        "identify_pii",
+        "redact_data",
+        "mask_data"
+    ],
+    "config": {
+        "defaultRuleSet": "pii_standard_v2"
+    }
+}

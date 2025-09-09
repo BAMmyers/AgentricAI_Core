@@ -1,0 +1,16 @@
+
+{
+  "agentID": "agent-21",
+  "name": "Collector Alpha",
+  "role": "Gathers and synthesizes information from multiple agent outputs into a unified summary or report.",
+  "logic": "local",
+  "permissions": [
+    "aggregate_data",
+    "synthesize_information",
+    "generate_report"
+  ],
+  "config": {
+    "maxInputs": 10,
+    "outputFormat": "summary"
+  }
+}

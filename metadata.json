@@ -1,0 +1,6 @@
+{
+  "description": "An application to manage and interact with a team of AI agents, featuring a chat interface and agent status tracking.",
+  "requestFramePermissions": [],
+  "name": "AgentricAI_Core",
+  "prompt": ""
+}

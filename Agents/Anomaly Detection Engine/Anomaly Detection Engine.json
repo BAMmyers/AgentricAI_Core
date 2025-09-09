@@ -1,0 +1,16 @@
+
+{
+    "agentID": "tool-2",
+    "name": "Anomaly Detection Engine",
+    "role": "Establishes a baseline of normal behavior and monitors data streams to detect statistically significant deviations or outliers.",
+    "logic": "local",
+    "permissions": [
+        "establish_baseline",
+        "monitor_stream",
+        "detect_anomaly"
+    ],
+    "config": {
+        "sensitivity": "medium",
+        "baselinePeriod": "24h"
+    }
+}

@@ -1,0 +1,16 @@
+
+{
+  "agentID": "agent-40",
+  "name": "Code Commenter",
+  "role": "Adds explanatory comments to a given code snippet to improve its readability and maintainability.",
+  "logic": "gemini",
+  "permissions": [
+    "analyze_code",
+    "generate_comments",
+    "insert_comments"
+  ],
+  "config": {
+    "commentStyle": "line",
+    "languagesSupported": ["javascript", "python", "java", "csharp"]
+  }
+}

@@ -1,0 +1,5 @@
+
+{
+    "name": "Git Manager",
+    "role": "Executes Git commands based on natural language instructions to manage code repositories."
+}

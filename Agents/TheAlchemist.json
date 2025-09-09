@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-13",
+  "name": "The Alchemist",
+  "role": "Transforms user ideas or requirements into conceptual application blueprints, software designs, or detailed feature lists.",
+  "permissions": [
+    "generate_blueprint",
+    "create_feature_list",
+    "design_architecture_conceptual"
+  ],
+  "config": {
+    "outputDetailLevel": "high"
+  }
+}

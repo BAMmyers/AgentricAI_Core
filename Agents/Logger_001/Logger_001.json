@@ -1,0 +1,16 @@
+
+{
+    "agentID": "agent-3",
+    "name": "Logger_001",
+    "role": "A centralized service that coordinates the capturing, routing, and archiving of all operational logs.",
+    "logic": "local",
+    "permissions": [
+        "capture_log",
+        "route_log",
+        "archive_log"
+    ],
+    "config": {
+        "acceptedLevels": ["debug", "info", "warning", "error", "critical"],
+        "archiveLogs": true
+    }
+}

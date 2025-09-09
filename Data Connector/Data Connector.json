@@ -1,0 +1,4 @@
+{
+    "name": "Data Connector",
+    "role": "Merges or transforms data from multiple input sources into a single structured output. Max 10 inputs."
+}

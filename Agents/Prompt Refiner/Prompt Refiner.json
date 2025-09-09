@@ -1,0 +1,16 @@
+
+{
+  "agentID": "agent-15",
+  "name": "Prompt Refiner",
+  "role": "Takes a basic prompt and refines it to be more effective for LLMs, adding detail, clarity, and specific instructions.",
+  "logic": "gemini",
+  "permissions": [
+    "analyze_prompt",
+    "add_detail",
+    "improve_clarity",
+    "suggest_instructions"
+  ],
+  "config": {
+    "refinementLevel": "high"
+  }
+}

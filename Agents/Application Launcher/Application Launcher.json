@@ -1,0 +1,13 @@
+
+{
+    "agentID": "sys-2",
+    "name": "Application Launcher",
+    "role": "Launches native applications installed on the host operating system (e.g., 'notepad.exe', 'calc').",
+    "logic": "local",
+    "permissions": [
+        "launch_application"
+    ],
+    "config": {
+        "allowShellExecution": true
+    }
+}

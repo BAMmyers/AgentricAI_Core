@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-11",
+  "name": "The Tutor",
+  "role": "An AI tutor that helps users learn about AgentricAI Studios, AI concepts, or other topics by providing explanations and guidance.",
+  "logic": "gemini",
+  "permissions": [
+    "explain_concept",
+    "provide_guidance",
+    "test_knowledge"
+  ],
+  "config": {
+    "teachingStyle": "Socratic"
+  }
+}

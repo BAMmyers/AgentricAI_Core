@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-31",
+  "name": "Text Translator",
+  "role": "Translates text from a source language (or auto-detected) to a target language.",
+  "logic": "gemini",
+  "permissions": [
+    "translate_text",
+    "detect_language",
+    "support_multiple_languages"
+  ],
+  "config": {
+    "defaultTargetLanguage": "en"
+  }
+}

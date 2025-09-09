@@ -1,0 +1,4 @@
+{
+    "name": "Code Refactor Suggestor",
+    "role": "Analyzes a code snippet and suggests potential refactorings for clarity, efficiency, or best practices."
+}

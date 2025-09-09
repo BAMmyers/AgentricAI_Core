@@ -1,0 +1,33 @@
+{
+  "name": "agentric-ai-os-shell",
+  "version": "1.0.0",
+  "description": "A desktop application for interacting with AgentricAI agents.",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/bundle.js --platform=browser --sourcemap",
+    "start": "npm run build && electron .",
+    "dev": "npm run build && electron ."
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "desktop",
+    "os"
+  ],
+  "author": "AgentricAI Studios",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google/genai": "^1.13.0",
+    "dotenv": "^16.4.5",
+    "node-llama-cpp": "^3.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "electron": "^31.2.1",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.3"
+  }
+}

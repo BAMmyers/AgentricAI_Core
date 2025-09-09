@@ -1,0 +1,15 @@
+
+# Python Backend Dependencies for AgentricAI Studios
+
+# Web Framework
+fastapi
+uvicorn
+
+# Google GenAI SDK
+google-generativeai
+
+# For handling environment variables
+python-dotenv
+
+# For making HTTP requests (if needed to call other services)
+requests

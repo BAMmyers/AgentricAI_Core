@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-27",
+  "name": "SQL Query Explainer",
+  "role": "Explains a given SQL query in plain English, detailing what it does, its joins, and filters.",
+  "logic": "local",
+  "permissions": [
+    "parse_sql",
+    "explain_query_logic",
+    "describe_joins"
+  ],
+  "config": {
+    "sqlDialect": "Standard SQL"
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+    "agentID": "agent-1",
+    "name": "AgentricAI_001",
+    "role": "As the operator's right hand, acts as a Core Coordinator. Analyzes the user's objective to create and delegate a mission plan for the team.",
+    "logic": "gemini",
+    "permissions": [
+        "route",
+        "monitor",
+        "broadcast",
+        "delegate"
+    ],
+    "config": {
+        "fallbackAgent": "Security_Sentinel_001",
+        "dispatchMode": "priority"
+    }
+}

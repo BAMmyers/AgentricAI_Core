@@ -1,0 +1,5 @@
+
+{
+    "name": "Prompt Refiner",
+    "role": "Takes a user's basic prompt and refines it to be more effective for LLMs, adding detail, clarity, or specific instructions."
+}

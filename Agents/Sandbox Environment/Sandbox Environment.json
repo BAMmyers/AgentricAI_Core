@@ -1,0 +1,16 @@
+
+{
+    "agentID": "tool-6",
+    "name": "Sandbox Environment",
+    "role": "Provides a virtual, isolated environment to execute suspicious or untrusted code/agents. It logs all actions within the sandbox and prevents any interaction with the host system, allowing for safe analysis of potential threats.",
+    "logic": "local",
+    "permissions": [
+        "create_sandbox",
+        "execute_in_sandbox",
+        "log_sandbox_activity",
+        "destroy_sandbox"
+    ],
+    "config": {
+        "isolationLevel": "full_network_and_fs_block"
+    }
+}

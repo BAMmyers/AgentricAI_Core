@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-8",
+  "name": "Git Manager",
+  "role": "Interprets natural language instructions into Git commands and executes them upon operator approval to manage a local code repository.",
+  "permissions": [
+    "interpret_nl_to_git",
+    "describe_git_command",
+    "conceptualize_repository_state"
+  ],
+  "config": {
+    "git_version": "2.40.1"
+  }
+}

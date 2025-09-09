@@ -1,0 +1,6 @@
+
+{
+    "agentID": "agent-44",
+    "name": "File Runner",
+    "role": "Prompts the user to select a local folder. It then recursively reads text files and extracts text from images within that folder, compiling the results for further use."
+}

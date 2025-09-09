@@ -1,0 +1,56 @@
+
+# AgentricAI Core OS - Product Roadmap
+
+This document outlines the planned development trajectory for the AgentricAI Core OS platform, categorized into short-term, mid-term, and long-term goals.
+
+---
+### Short-Term (Next 3-6 Months)
+*Focus: Enhancing user experience, core functionality, and introducing foundational new capabilities.*
+
+-   **UI/UX Refinements:**
+    -   **Mission History:** Implement a persistent, searchable history of all past missions, allowing operators to review logs and outcomes.
+    -   **Timeline Enhancements:** Add collapsible stages/phases to the mission timeline for better readability of complex plans.
+    -   **Agent Roster Filtering:** Add search and category filter functionality to the Agent Roster panel.
+
+-   **Core Functionality:**
+    -   **Streaming Responses:** Modify the chat and agent execution flow to support streaming output from the Gemini API, providing faster, more responsive feedback to the operator.
+    -   **UI-Based Workspace:** Create a virtual "Workspace" panel where agents can read and write files (e.g., `report.md`, `data.json`), creating a shared context visible to the operator.
+    -   **Session Persistence:** Save the current team composition and chat history to local storage, allowing operators to resume their sessions.
+
+-   **New Foundational Agents:**
+    -   **Web Search Agent:** Introduce a new agent that utilizes Google Search grounding via the Gemini API to answer questions about recent events and provide sourced information.
+    -   **Database Agent:** Create an agent with a `sql` tool to connect to and query databases (initially with a simulated DB connection).
+
+---
+### Mid-Term (6-12 Months)
+*Focus: Deepening agent collaboration, platform extensibility, and external integrations.*
+
+-   **Advanced Collaboration & State Management:**
+    -   **Shared Memory System:** Implement a more robust shared state/memory object for each mission that agents can read from and write to, reducing reliance on passing large contexts through prompts.
+    -   **Parallel Execution:** Update the mission execution engine to identify and run non-dependent plan steps in parallel, significantly speeding up mission completion.
+    -   **User-Defined Playbooks:** Allow operators to save a specific team composition and an initial prompt as a "Playbook" for recurring tasks.
+
+-   **Platform & Integration:**
+    -   **Dedicated Backend Service:** Replace the backend simulation with a dedicated, secure backend service (e.g., using FastAPI) for scalable and robust tool execution in a sandboxed environment.
+    -   **Enterprise API Integrations:** Develop agents that can connect to and control external services like GitHub (e.g., creating issues), Jira (e.g., updating tickets), and Slack (e.g., sending notifications).
+
+-   **Agent Development Ecosystem:**
+    -   **Agent SDK:** Release a formal guide and potentially a small SDK (TypeScript/Python) to standardize and simplify the process for developers to create new agents.
+    -   **Dynamic Agent Instantiation:** Allow the "Agent Designer" agent to not only design a spec but also dynamically register a new agent configuration that becomes available for use within the current session.
+
+---
+### Long-Term (1-2+ Years)
+*Focus: Achieving multi-modal capabilities, greater autonomy, and establishing a full-fledged ecosystem.*
+
+-   **Multi-Modal AI:**
+    -   **Image Generation:** Introduce an agent using `imagen-3.0-generate-002` to generate images based on specifications from other agents (e.g., `Visualizer`).
+    -   **Video Generation:** Add a `veo-2.0-generate-001` agent for creating video content.
+    -   **Audio Input:** Explore adding voice-to-text capabilities to the main chat input for hands-free operation.
+
+-   **Operational Autonomy:**
+    -   **Supervised Autonomous Mode:** Introduce an optional mode where the operator can pre-approve certain classes of actions (e.g., read-only file operations, non-destructive git commands), allowing missions to run to completion without interruption, while still logging everything for audit.
+
+-   **Platform Ecosystem:**
+    -   **Analytics & Reporting Dashboard:** Create a dedicated "Fleet Management" dashboard to track API costs, token usage per agent, agent performance metrics, and mission success rates.
+    -   **Agent Marketplace:** Launch a platform where developers can publish, share, and discover new agents, and operators can easily install them into their own rosters.
+    -   **Enterprise-Grade Deployment:** Offer deployment solutions for on-premise or private cloud environments, including integration with enterprise authentication systems like SSO.

@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-33",
+  "name": "Keyword Finder",
+  "role": "Identifies and extracts key terms or phrases from a block of text.",
+  "logic": "local",
+  "permissions": [
+    "extract_keywords",
+    "rank_keywords",
+    "identify_phrases"
+  ],
+  "config": {
+    "maxKeywords": 10
+  }
+}

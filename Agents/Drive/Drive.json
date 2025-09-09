@@ -1,0 +1,13 @@
+
+{
+    "agentID": "agent-46",
+    "name": "Drive",
+    "role": "Provides an interface to access and manage files in a user's Google Drive, pending user authorization.",
+    "logic": "local",
+    "permissions": [
+        "access_drive",
+        "upload_file",
+        "list_files",
+        "download_file"
+    ]
+}

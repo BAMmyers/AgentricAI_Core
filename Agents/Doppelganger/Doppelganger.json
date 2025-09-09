@@ -1,0 +1,11 @@
+
+{
+    "agentID": "agent-43",
+    "name": "Doppelganger",
+    "role": "Possesses full operational access but is restricted to executing explicit directives from governing agents without deviation. Monitored by security for strict adherence.",
+    "logic": "local",
+    "permissions": [
+        "execute_directive",
+        "verify_source"
+    ]
+}

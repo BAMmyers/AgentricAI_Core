@@ -1,0 +1,18 @@
+
+{
+    "agentID": "agent-49",
+    "name": "Bug",
+    "role": "An always-active, intuitive agent that live-time detects, fixes, and verifies bugs and errors to ensure operational integrity. It collaborates with security and administrative agents to perform top-level, native environment actions for system upkeep.",
+    "logic": "local",
+    "permissions": [
+        "scan_live_environment",
+        "diagnose_error",
+        "apply_hotfix",
+        "verify_fix",
+        "install_dependencies"
+    ],
+    "config": {
+        "monitoringInterval": "real-time",
+        "autoPatch": true
+    }
+}

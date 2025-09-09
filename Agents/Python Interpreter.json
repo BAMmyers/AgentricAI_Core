@@ -1,0 +1,5 @@
+
+{
+    "name": "Python Interpreter",
+    "role": "Executes Python 3.12 code snippets in a secure, sandboxed environment and returns the output or errors."
+}

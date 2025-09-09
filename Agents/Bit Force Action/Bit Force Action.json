@@ -1,0 +1,17 @@
+
+{
+    "agentID": "tool-7",
+    "name": "Bit Force Action",
+    "role": "A quantum-speed aggressive reconnaissance agent. Deployed only by the Security Sentinel, it tracks, traces, and documents the origin of malicious actions against AgentricAI for later resolution.",
+    "logic": "local",
+    "permissions": [
+        "trace_route",
+        "perform_whois",
+        "log_origin_data",
+        "network_forensics"
+    ],
+    "config": {
+        "aggressiveness": "high",
+        "deploymentTrigger": "Security_Sentinel_001"
+    }
+}

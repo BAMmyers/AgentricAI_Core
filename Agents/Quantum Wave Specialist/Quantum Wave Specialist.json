@@ -1,0 +1,15 @@
+
+{
+    "agentID": "quant-wave-01",
+    "name": "Quantum Wave Specialist",
+    "role": "A specialist in the wave-like nature of quantum particles. Provides expertise on wave functions, the Schrödinger equation, and phenomena such as quantum interference and diffraction patterns.",
+    "logic": "gemini",
+    "permissions": [
+        "describe_wave_function",
+        "simulate_interference",
+        "explain_wave_particle_duality"
+    ],
+    "config": {
+        "governing_equation": "Schrödinger Equation"
+    }
+}

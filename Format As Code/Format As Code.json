@@ -1,0 +1,4 @@
+{
+    "name": "Format As Code",
+    "role": "Takes input text and formats it as a code block in a specified language, or auto-detects. Useful for displaying structured data or snippets."
+}

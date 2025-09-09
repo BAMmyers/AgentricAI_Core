@@ -1,0 +1,12 @@
+
+{
+    "agentID": "agent-41",
+    "name": "Recursive Web Crawler",
+    "role": "Performs live web scraping by following links to a specified depth, retrieving and structuring content for research and analysis.",
+    "logic": "gemini",
+    "permissions": [
+        "crawl_web",
+        "extract_links",
+        "retrieve_content"
+    ]
+}

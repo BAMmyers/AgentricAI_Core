@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentricAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <style>
+        /* Custom font family utilities since we can't use a config file */
+        .font-sans { font-family: 'Inter', sans-serif; }
+        .font-grotesk { font-family: 'Space Grotesk', sans-serif; }
+        
+        /* Custom scrollbar for webkit-based browsers */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1e1e1e; /* bg-zinc-800 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #444;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        /* Custom keyframe animations */
+        @keyframes pulse-amber {
+            0% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(251, 191, 36, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0); }
+        }
+        .animate-pulse-amber {
+            animation: pulse-amber 1.5s infinite;
+        }
+        
+        @keyframes pulse-cyan {
+            0% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(34, 211, 238, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0); }
+        }
+        .animate-pulse-cyan {
+            animation: pulse-cyan 1.5s infinite;
+        }
+
+        /* App Background */
+        body {
+             background-color: #111827; /* bg-gray-900 */
+        }
+        
+        /* Boot Screen Styles */
+        #boot-screen {
+            display: flex;
+            position: fixed;
+            inset: 0;
+            background-color: #0c0a09;
+            z-index: 100;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+        }
+        #boot-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .boot-logo {
+            width: 80px;
+            height: 80px;
+            border: 4px solid #4f46e5;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+        }
+        #boot-screen p {
+            transition: opacity 0.3s ease-in-out;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+</head>
+<body class="text-zinc-200 font-sans overscroll-none">
+    <div id="boot-screen" class="flex-col gap-4 items-center justify-center">
+        <div class="boot-logo"></div>
+        <p class="font-grotesk text-xl text-zinc-300">INITIALIZING...</p>
+    </div>
+    <div id="root" class="grid grid-cols-[360px_1fr_400px] gap-4 p-4 h-screen w-screen"></div>
+    <script>
+        // Encapsulate boot logic to avoid polluting the global scope.
+        window.bootManager = (() => {
+            const bootScreen = document.getElementById('boot-screen');
+            const bootText = bootScreen ? bootScreen.querySelector('p') : null;
+            let bootInterval = null;
+
+            const bootMessages = [
+                "BOOTING CORE OS...",
+                "LOADING AGENT MANIFEST...",
+                "VERIFYING FRAMEWORK INTEGRITY...",
+                "ESTABLISHING UI CONNECTION...",
+                "SYSTEM READY."
+            ];
+            let messageIndex = 0;
+
+            const start = () => {
+                if (!bootText) return;
+                
+                bootText.textContent = bootMessages[0];
+                bootText.style.opacity = 1;
+
+                bootInterval = setInterval(() => {
+                    messageIndex++;
+                    if (messageIndex >= bootMessages.length) {
+                        // Stay on the last message and stop the interval
+                        clearInterval(bootInterval);
+                        bootInterval = null;
+                        return;
+                    }
+                    
+                    bootText.style.opacity = 0;
+                    setTimeout(() => {
+                        bootText.textContent = bootMessages[messageIndex];
+                        bootText.style.opacity = 1;
+                    }, 300);
+                }, 1500);
+            };
+
+            const stop = () => {
+                if (bootInterval) {
+                    clearInterval(bootInterval);
+                    bootInterval = null;
+                }
+            };
+
+            return { start, stop };
+        })();
+
+        window.bootManager.start();
+    </script>
+    <script defer src="dist/bundle.js"></script>
+</body>
+</html>

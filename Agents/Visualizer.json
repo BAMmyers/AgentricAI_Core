@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-17",
+  "name": "Visualizer",
+  "role": "Generates textual descriptions of potential UI mockups, charts, or visual layouts based on input data or concepts. Does not generate images directly.",
+  "permissions": [
+    "describe_ui_mockup",
+    "describe_chart",
+    "describe_visual_layout"
+  ],
+  "config": {
+    "visualizationType": "description"
+  }
+}

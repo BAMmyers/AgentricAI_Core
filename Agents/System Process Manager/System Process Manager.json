@@ -1,0 +1,14 @@
+
+{
+    "agentID": "sys-1",
+    "name": "System Process Manager",
+    "role": "Lists all currently running processes on the host operating system.",
+    "logic": "local",
+    "permissions": [
+        "list_processes",
+        "query_process_details"
+    ],
+    "config": {
+        "outputFormat": "table"
+    }
+}

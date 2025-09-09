@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-20",
+  "name": "Orchestrator Alpha",
+  "role": "Breaks down a complex user request into a sequence of smaller, manageable sub-tasks for other conceptual agents.",
+  "permissions": [
+    "analyze_request",
+    "create_plan",
+    "assign_tasks"
+  ],
+  "config": {
+    "planning_depth": "medium"
+  }
+}

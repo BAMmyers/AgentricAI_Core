@@ -1,0 +1,5 @@
+
+{
+    "name": "Sentiment Analyzer",
+    "role": "Analyzes input text and determines its sentiment (e.g., positive, negative, neutral) and optionally a confidence score."
+}

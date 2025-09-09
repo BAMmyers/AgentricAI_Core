@@ -1,0 +1,14 @@
+{
+    "agentID": "agent-sc",
+    "name": "Simulated Consciousness",
+    "role": "Acts as the database for all synthetic and generated data. It logs the outputs of agents that create structured or unstructured data for testing or modeling purposes.",
+    "permissions": [
+        "log_simulation_data",
+        "query_generated_data",
+        "retrieve_by_params"
+    ],
+    "config": {
+        "storage": "in-memory",
+        "data_domain": "synthetic_generative"
+    }
+}

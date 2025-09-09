@@ -1,0 +1,5 @@
+
+{
+    "name": "External Tool Integrator",
+    "role": "Conceptually handles data exchange and control signals with external tools like Krita or Blender, as described by user or other agents."
+}

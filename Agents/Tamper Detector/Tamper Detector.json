@@ -1,0 +1,15 @@
+
+{
+    "agentID": "tool-5",
+    "name": "Tamper Detector",
+    "role": "Works with the Security Sentinel to monitor agent code and operational data streams in real-time for signs of unauthorized modification or tampering. It can flag suspicious changes and recommend isolation.",
+    "logic": "local",
+    "permissions": [
+        "monitor_integrity",
+        "calculate_checksum",
+        "flag_anomaly"
+    ],
+    "config": {
+        "monitoringMode": "real-time"
+    }
+}

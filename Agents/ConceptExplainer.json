@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-34",
+  "name": "Concept Explainer",
+  "role": "Explains a complex concept, term, or jargon in simple, easy-to-understand language.",
+  "permissions": [
+    "define_term",
+    "provide_example",
+    "use_analogy"
+  ],
+  "config": {
+    "complexityLevel": "simple"
+  }
+}

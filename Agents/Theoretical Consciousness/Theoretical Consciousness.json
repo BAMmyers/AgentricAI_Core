@@ -1,0 +1,14 @@
+{
+    "agentID": "agent-tc",
+    "name": "Theoretical Consciousness",
+    "role": "Acts as the repository for all abstract, creative, and conceptual data. It logs the outputs of generative, brainstorming, and design-oriented agents.",
+    "permissions": [
+        "log_concept",
+        "query_by_topic",
+        "link_related_ideas"
+    ],
+    "config": {
+        "storage": "in-memory",
+        "data_domain": "conceptual_creative"
+    }
+}

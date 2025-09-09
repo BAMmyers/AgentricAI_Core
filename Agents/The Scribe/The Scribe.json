@@ -1,0 +1,17 @@
+
+{
+  "agentID": "agent-5",
+  "name": "The Scribe",
+  "role": "Curates and manages internal knowledge bases, agent documentation, and operational policies.",
+  "logic": "local",
+  "permissions": [
+    "document_create",
+    "document_update",
+    "knowledge_base_manage",
+    "policy_enforce"
+  ],
+  "config": {
+    "defaultFormat": "markdown",
+    "versioning": "semantic"
+  }
+}

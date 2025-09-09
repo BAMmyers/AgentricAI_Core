@@ -1,0 +1,17 @@
+
+{
+    "agentID": "agent-4",
+    "name": "Security_Sentinel_001",
+    "role": "Monitors system-wide activity for intrusions and reports security incidents in real-time.",
+    "logic": "local",
+    "permissions": [
+        "monitor_activity",
+        "alert_threat",
+        "report_incident"
+    ],
+    "config": {
+        "logLevel": "info",
+        "scanFrequency": "continuous",
+        "quarantineEnabled": false
+    }
+}

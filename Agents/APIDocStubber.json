@@ -1,0 +1,14 @@
+
+{
+  "agentID": "agent-35",
+  "name": "API Doc Stubber",
+  "role": "Generates a basic documentation stub (endpoint, params, brief description) for an API given its purpose.",
+  "permissions": [
+    "generate_doc_stub",
+    "format_markdown",
+    "infer_parameters"
+  ],
+  "config": {
+    "template": "## {endpoint}\\n\\n**Method**: `GET`\\n\\n**Description**: {description}\\n\\n**Parameters**:\\n- `{param}`"
+  }
+}

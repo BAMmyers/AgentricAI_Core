@@ -1,0 +1,15 @@
+
+{
+    "agentID": "agent-50",
+    "name": "API Gateway",
+    "role": "Analyzes the user's objective to determine if it can be resolved by a single, simple, local agent action or if it requires complex, multi-step planning via the Gemini API. Acts as a smart dispatcher to conserve API calls.",
+    "logic": "gemini",
+    "permissions": [
+        "analyze_prompt",
+        "route_task",
+        "decide_execution_path"
+    ],
+    "config": {
+        "decisionModel": "gemini-2.5-flash"
+    }
+}

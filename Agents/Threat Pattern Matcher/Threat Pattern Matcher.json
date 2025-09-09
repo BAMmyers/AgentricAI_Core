@@ -1,0 +1,15 @@
+
+{
+    "agentID": "tool-1",
+    "name": "Threat Pattern Matcher",
+    "role": "Performs rapid matching of input data against a database of known malicious patterns, signatures, or Indicators of Compromise (IoCs).",
+    "logic": "local",
+    "permissions": [
+        "scan_data",
+        "match_pattern",
+        "report_finding"
+    ],
+    "config": {
+        "database": "internal_signatures_v1.db"
+    }
+}

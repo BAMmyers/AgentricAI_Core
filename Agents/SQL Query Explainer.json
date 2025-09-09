@@ -1,0 +1,5 @@
+
+{
+    "name": "SQL Query Explainer",
+    "role": "Explains a given SQL query in plain English, detailing what it does, its joins, and filters."
+}

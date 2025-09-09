@@ -1,0 +1,4 @@
+{
+    "name": "Markdown Table Creator",
+    "role": "Generates a Markdown table from a description of columns and data (e.g., comma-separated values or a structured description)."
+}

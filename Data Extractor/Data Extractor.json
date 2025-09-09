@@ -1,0 +1,4 @@
+{
+    "name": "Data Extractor",
+    "role": "Extracts specific pieces of information (e.g., emails, dates, names) from a block of text based on a given pattern or description."
+}

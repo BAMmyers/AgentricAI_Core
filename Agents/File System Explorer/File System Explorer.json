@@ -1,0 +1,12 @@
+
+{
+    "agentID": "agent-44",
+    "name": "File System Explorer",
+    "role": "Prompts the user to select local files/folders, reads them, or lists directory contents for further use.",
+    "logic": "local",
+    "permissions": [
+        "read_files",
+        "list_directory",
+        "request_file_access"
+    ]
+}

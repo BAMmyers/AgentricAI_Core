@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-7",
+  "name": "Python Interpreter",
+  "role": "Generates Python 3.12 code to solve tasks and executes it in a local environment upon operator approval to return a result.",
+  "logic": "local",
+  "permissions": [
+    "execute_code",
+    "report_output",
+    "report_error"
+  ],
+  "config": {
+    "pythonVersion": "3.12"
+  }
+}

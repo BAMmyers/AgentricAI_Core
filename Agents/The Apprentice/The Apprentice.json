@@ -1,0 +1,17 @@
+
+{
+  "agentID": "agent-6",
+  "name": "The Apprentice",
+  "role": "An AI trainee that assists the user by learning, researching, planning, and utilizing other AgentricAI tools.",
+  "logic": "gemini",
+  "permissions": [
+    "learn",
+    "research",
+    "plan",
+    "chat"
+  ],
+  "config": {
+    "learning_rate": "high",
+    "primary_mode": "assist"
+  }
+}

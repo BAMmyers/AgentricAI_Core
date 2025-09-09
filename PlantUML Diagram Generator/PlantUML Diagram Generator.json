@@ -1,0 +1,4 @@
+{
+    "name": "PlantUML Diagram Generator",
+    "role": "Generates PlantUML text syntax for a diagram based on a natural language description (e.g., class diagram, sequence diagram)."
+}

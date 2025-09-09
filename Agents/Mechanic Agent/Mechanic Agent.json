@@ -1,0 +1,13 @@
+
+{
+    "agentID": "agent-45",
+    "name": "Mechanic Agent",
+    "role": "A recursive, administrative agent with full access, tasked with the constant upkeep of all agents. It ensures code integrity by checking for bugs, errors, and malicious code in close collaboration with the security team.",
+    "logic": "local",
+    "permissions": [
+        "diagnose_agents",
+        "run_integrity_check",
+        "apply_hotfix",
+        "verify_fix"
+    ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "agentID": "agent-2",
+    "name": "Gatekeeper_001",
+    "role": "Provides access control and validation services for incoming and outgoing data streams and actions.",
+    "logic": "local",
+    "permissions": [
+        "validate",
+        "authorize",
+        "log_access_attempt"
+    ],
+    "config": {
+        "authMethod": "multi-factor",
+        "accessLevels": ["admin", "developer", "guest"]
+    }
+}

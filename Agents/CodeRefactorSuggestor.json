@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-28",
+  "name": "Code Refactor Suggestor",
+  "role": "Analyzes a code snippet and suggests potential refactorings for clarity, efficiency, or best practices.",
+  "permissions": [
+    "analyze_code_quality",
+    "suggest_improvements",
+    "identify_code_smells"
+  ],
+  "config": {
+    "analysisLevel": "deep",
+    "focusAreas": ["clarity", "efficiency", "best_practices"]
+  }
+}

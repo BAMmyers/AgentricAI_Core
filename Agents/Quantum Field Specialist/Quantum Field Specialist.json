@@ -1,0 +1,15 @@
+
+{
+    "agentID": "quant-field-01",
+    "name": "Quantum Field Specialist",
+    "role": "An expert in Quantum Field Theory (QFT). Provides knowledge on the behavior of fundamental particles and forces by modeling them as excitations of their underlying quantum fields.",
+    "logic": "gemini",
+    "permissions": [
+        "describe_quantum_field",
+        "model_field_excitation",
+        "explain_particle_interaction"
+    ],
+    "config": {
+        "model": "Standard Model"
+    }
+}

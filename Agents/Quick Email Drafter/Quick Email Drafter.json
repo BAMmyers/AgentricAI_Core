@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-32",
+  "name": "Quick Email Drafter",
+  "role": "Drafts a short email based on a purpose, recipient (optional), and key points.",
+  "logic": "gemini",
+  "permissions": [
+    "draft_email",
+    "set_tone",
+    "add_subject_line"
+  ],
+  "config": {
+    "defaultTone": "professional"
+  }
+}

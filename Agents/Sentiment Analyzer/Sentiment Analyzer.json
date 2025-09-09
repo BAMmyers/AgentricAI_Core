@@ -1,0 +1,15 @@
+
+{
+  "agentID": "agent-24",
+  "name": "Sentiment Analyzer",
+  "role": "Analyzes input text and determines its sentiment (e.g., positive, negative, neutral) and provides an optional confidence score.",
+  "logic": "local",
+  "permissions": [
+    "analyze_sentiment",
+    "provide_confidence_score",
+    "detect_emotion"
+  ],
+  "config": {
+    "sentimentClasses": ["positive", "negative", "neutral"]
+  }
+}

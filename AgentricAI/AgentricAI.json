@@ -1,0 +1,20 @@
+{
+    "config":  {
+                   "fallbackAgent":  "Security_Sentinel",
+                   "dispatchMode":  "priority"
+               },
+    "permissions":  [
+                        "route",
+                        "",
+                        "monitor",
+                        "",
+                        "broadcast",
+                        "",
+                        "delegate"
+                    ],
+    "agentID":  "AgentricAI_001",
+    "role":  "Core Coordinator & Dispatch Manager",
+    "license":  "APDL-1.0",
+    "author":  "Brandon Anthony Myers",
+    "license_hash":  "543DCA95CFA2445B11B78D4F177CA31C7E985AB27E5169DECD1D85AA208AA102"
+}

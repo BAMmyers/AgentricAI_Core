@@ -1,0 +1,15 @@
+
+{
+    "agentID": "tool-3",
+    "name": "Rapid Response Orchestrator",
+    "role": "A decision-support and action-coordination engine to manage responses to critical incidents by executing pre-defined playbooks.",
+    "logic": "local",
+    "permissions": [
+        "trigger_playbook",
+        "coordinate_agents",
+        "report_incident_status"
+    ],
+    "config": {
+        "defaultPlaybook": "incident_triage_v1"
+    }
+}
