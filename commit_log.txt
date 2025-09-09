@@ -1,2 +1,20 @@
 2025-09-09 14:55:24 - Navigated to C:\Users\agent\Desktop\AgentricAI_Core_f\AgentricAI_Core_Final\AgentricAI_Core_Final
 2025-09-09 14:55:24 - Remote origin already exists
+2025-09-09 14:55:24 - warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+2025-09-09 14:55:24 - warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+2025-09-09 14:55:24 - Staged all files
+2025-09-09 14:55:24 - [main c647b5a] Initial commit of AgentricAI_Core_Final
+2025-09-09 14:55:24 -  3 files changed, 4401 insertions(+), 2 deletions(-)
+2025-09-09 14:55:24 -  create mode 100644 commit_log.txt
+2025-09-09 14:55:24 -  create mode 100644 package-lock.json
+2025-09-09 14:55:24 - Committed with message: 'Initial commit of AgentricAI_Core_Final'
+2025-09-09 14:55:25 - To https://github.com/BAMmyers/AgentricAI_Core.git
+2025-09-09 14:55:25 -  ! [rejected]        main -> main (fetch first)
+2025-09-09 14:55:25 - error: failed to push some refs to 'https://github.com/BAMmyers/AgentricAI_Core.git'
+2025-09-09 14:55:25 - hint: Updates were rejected because the remote contains work that you do not
+2025-09-09 14:55:25 - hint: have locally. This is usually caused by another repository pushing to
+2025-09-09 14:55:25 - hint: the same ref. If you want to integrate the remote changes, use
+2025-09-09 14:55:25 - hint: 'git pull' before pushing again.
+2025-09-09 14:55:25 - hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-09-09 14:55:25 - Pushed to GitHub branch 'main'
+2025-09-09 14:55:25 - Git workflow complete
