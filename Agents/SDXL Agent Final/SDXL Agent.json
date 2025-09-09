@@ -1,0 +1,34 @@
+{
+    "agentID": "agent-sdxl",
+    "name": "SDXL Agent Final",
+    "role": "Advanced image generation agent utilizing Stable Diffusion XL 1.0 with local safetensor model loading. Provides high-quality text-to-image generation with background processing capabilities and graceful error handling.",
+    "logic": "local",
+    "tool": "sdxl",
+    "category": "AI Generation",
+    "permissions": [
+        "modelLoad",
+        "imageGenerate",
+        "fileSystem",
+        "backgroundProcess"
+    ],
+    "config": {
+        "modelFormat": "safetensors",
+        "sdxlVersion": "1.0",
+        "backgroundProcessing": true,
+        "maxConcurrentJobs": 2,
+        "defaultModelPath": "models",
+        "supportedFormats": ["png", "jpg", "jpeg", "webp"],
+        "defaultResolution": {
+            "width": 1024,
+            "height": 1024
+        },
+        "fallbackAgent": "Logger_001",
+        "errorHandling": "graceful"
+    },
+    "modelConfig": {
+        "adultModel": "agentricaiAdult_v10.safetensors",
+        "primalModel": "agentricaiPrimalxl_v10.safetensors",
+        "loadTimeout": 30000,
+        "memoryOptimization": true
+    }
+}

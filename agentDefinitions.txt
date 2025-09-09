@@ -506,3 +506,9 @@ Logic: gemini
 Tool: None
 Role: Assesses the long-term sustainability and future implications of a project, considering technological evolution, market shifts, and potential unforeseen consequences.
 ========================================
+Agent: SDXL Agent Final (agent-sdxl)
+Category: AI Generation
+Logic: local
+Tool: sdxl
+Role: Advanced image generation agent utilizing Stable Diffusion XL 1.0 with local safetensor model loading. Provides high-quality text-to-image generation with background processing capabilities and graceful error handling.
+========================================
